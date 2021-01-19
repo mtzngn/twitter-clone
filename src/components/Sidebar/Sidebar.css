@@ -1,0 +1,49 @@
+.sidebar {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width:70%;
+    height:100%;
+    margin-right: 15px;
+}
+.sidebar ul {
+    margin:0;
+    padding: 0;
+}
+.sidebar ul li {
+    list-style-type:none;
+}
+
+.sidebar ul li a {
+    max-width: fit-content;
+    display:flex;
+}
+.sidebar ul li a h2 {
+    margin:15px;
+}
+.sidebar ul li a:link, .sidebar ul li a:visited {
+    text-decoration: none;
+    color: #000;
+}
+.sidebar ul li a:hover {
+    background-color: rgb(232,245,254);
+    color: #1DA1F2;
+    border-radius: 20px;
+
+}
+
+.sidebar ul li a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.user-section {
+    height:50px;
+    width:100%;
+    background-color: red;
+    border-radius: 20px;
+
+}

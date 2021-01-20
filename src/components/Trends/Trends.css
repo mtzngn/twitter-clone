@@ -54,6 +54,9 @@
   .trends ul li:hover {
     background-color: rgb(235,238,240);
   }
+  .trends ul li:first-child:hover {
+    background-color:  #F7F9FA;
+  }
   .trends ul li:last-child {
     height:10%;
     border-radius: 0 0 20px 20px

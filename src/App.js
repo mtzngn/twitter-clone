@@ -22,8 +22,6 @@ const App = ()=>{
     </div>
   );
 }
-
-
   
 const UserInput = () => {
   return (

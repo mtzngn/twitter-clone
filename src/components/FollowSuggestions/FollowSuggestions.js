@@ -1,4 +1,3 @@
-import {useState} from "react";
 import './FollowSuggestions.css';
 
 const FollowSuggestions = () => {

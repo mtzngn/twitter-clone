@@ -1,9 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import {React, useState} from "react"
+import {React} from "react"
 import Trends from "./components/Trends/Trends.js"
 import FollowSuggestions from "./components/FollowSuggestions/FollowSuggestions.js"
 import Sidebar from "./components/Sidebar/Sidebar.js"
+import MainFeed from "./components/MainFeed/MainFeed.js"
+import SearchBar from "./components/SearchBar/SearchBar.js"
 
 const App = ()=>{
   return (
@@ -23,29 +24,8 @@ const App = ()=>{
   );
 }
   
-const UserInput = () => {
-  return (
-  <div className="user-input">
-    <h1>you will tweet from here!</h1>
-  </div>
-    )
-}
-const MainFeed = () =>{
-  return (
-  <div class="main-feed">
-    <UserInput/>
-    <h1>Here the tweets</h1>
-  </div>
-  )
-}
-const SearchBar = () => {
-  return (
-    <div className="searchbar">
-      <i>Icon</i>
-      <input placeholder="Search Twitter" id="search"></input>
-    </div>
-      )
-}
+
+
 
 
 

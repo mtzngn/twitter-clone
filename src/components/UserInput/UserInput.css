@@ -1,0 +1,161 @@
+.user-input {
+    height:25%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sticky-home-link-wrapper {
+    width:100%;
+}
+.sticky-home-link-wrapper a {
+    width:100%;
+    height:100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sticky-home-link-wrapper a p, .sticky-home-link-wrapper a i {
+    margin:10px;
+}
+
+.sticky-home-link:link {
+    text-decoration: none;
+    color: #000;
+  }
+.sticky-home-link:visited {
+    text-decoration: none;
+    color: #000;
+  }
+.sticky-home-link {
+      position: sticky;
+      font-size:1.2em;
+      border: 1px solid rgb(235,238,240);
+  }
+.sticky-home-link i:hover {
+      color: #1DA1F2;
+  }
+
+.enter-tweet-wrapper {
+      width:100%;
+      height: 100%;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid  rgb(235,238,240);
+  }
+.enter-tweet-logo {
+      width:15%;
+      height:100%;
+      display:flex;
+      align-items: flex-start;
+      justify-content: center;
+
+    }
+  .user-logo {
+    margin-top:10px;
+    width:60px;
+    height:60px;
+    background: url("https://api.chucknorris.io/img/chucknorris_logo_coloured_small.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border:1px solid black;
+
+  }
+.enter-tweet {
+      width:100%;
+      height:100%;
+      display:flex;
+      flex-direction: column;
+  }
+
+.enter-tweet-input {
+    height:70%;
+    width:100%;
+    background: green;
+  }
+  .enter-tweet-input form {
+    width:100%;
+    height:100%;
+  }
+  .enter-tweet-input form textarea {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    border:none;
+    font-size: 1.6em;
+    box-shadow: none;
+    resize: none;
+  }
+  .enter-tweet-input form textarea:focus {
+    border:none;
+    outline: none;
+  }
+
+.enter-tweet-icons-wrapper {
+      width:95%;
+      height:35%;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid #EBEEF0;
+  }
+.enter-tweet-icons {
+    width:40%;
+    height: 100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+  }
+.enter-tweet-icons a {
+    height: 90%;
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.enter-tweet-icons a:link {
+    text-decoration: none;
+}
+.enter-tweet-icons a i {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #47B2F4;
+  }
+.enter-tweet-icons a:hover {
+    background-color: rgb(232,245,254);
+    border-radius: 100%;;
+}
+.enter-tweet-icons a:active {
+    background-color: #AFDEFA;
+    border-radius: 100%;;
+}
+.enter-tweet-btn {
+      width: 13%;
+      height:80%;
+  }
+.enter-tweet-btn button {
+      width:100%;
+      height:100%;
+      background-color: #1DA1F2;
+      color: #fff;
+      border-radius:20px;
+      font-size: 1.05em;;
+      border:none;
+  }
+.enter-tweet-btn button:disabled {
+    background-color: #8ED0F9;
+}
+.enter-tweet-btn button:hover {
+  background-color: #1A91DA;
+}
+.enter-tweet-btn button:active {
+  background-color: #1782c4;
+}

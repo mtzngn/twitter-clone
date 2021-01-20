@@ -1,0 +1,22 @@
+.main-feed {
+    height:100%;
+    width:100%;
+}
+.feed-wrapper {
+    width: 100%;
+    height:150px;
+    background-color: yellow;
+    display:flex;
+
+}
+.feed-logo {
+width: 15%;
+height:100px;
+background-color: red;
+}
+.feed-details {
+width:90%;
+height:100%;
+background-color: green;
+
+}

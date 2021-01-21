@@ -1,4 +1,38 @@
+html, body {
+  margin:0;
+  padding:0;
+}
 .App {
   text-align: center;
+  height:100vh;
+  width:100%;
+  background-color: #fff;
+  display:flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.sidebar-wrapper {
+  width:20%;
+  height:100%;
+  background-color: #fff;
+  display:flex;
+  justify-content: flex-end;
+}
+.mainfeed-wrapper {
+  width: 45%;
+  height:100%;
+}
+.trend-section-wrapper {
+
+}
+.follow-suggestions {
+  width:80%;
+  height:20%;
+  border-radius: 20px;
+  margin-top:5px;
+  background-color: #F7F9FA;
+}
+h1 {
+  margin:0px;
 }
 

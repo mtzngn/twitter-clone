@@ -1,0 +1,72 @@
+.sidebar {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width:75%;
+    height:100%;
+    margin-right: 15px;
+}
+.sidebar ul {
+    margin:0;
+    padding: 0;
+    width:90%;
+    height:100%;
+}
+.sidebar ul li {
+    list-style-type:none;
+    height:8%;
+    margin-bottom: 3px;
+}
+
+.sidebar ul li a {
+    max-width: fit-content;
+    display:flex;
+}
+
+.sidebar ul li a h2 {
+    margin:15px;
+}
+.sidebar ul li a:link, .sidebar ul li a:visited {
+    text-decoration: none;
+    color: #000;
+}
+.sidebar ul li a:hover {
+    background-color: rgb(232,245,254);
+    color: #1DA1F2;
+    border-radius: 50px;
+
+}
+
+.sidebar ul li a i {
+    width:30px;
+    height:65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 9px;
+}
+
+
+#sidebar-tweet {
+    width:100%;
+    height:7%;
+    background-color: #1DA1F2;
+    color: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sidebar-tweet:hover {
+    background-color: rgb(26,145,218);
+}
+
+
+.user-section {
+    height:50px;
+    width:100%;
+    background-color: red;
+    border-radius: 30px;
+
+}

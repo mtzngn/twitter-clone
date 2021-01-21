@@ -8,15 +8,13 @@ const MainFeed = () =>{
   const getTweets = (data) => {
     setTweet([...tweets, `${data}`])
   }
-
   const getChuckNorris = () =>{
-    console.log(tweets)
-
-    fetch("https://api.chucknorris.io/jokes/random")
-    .then((response)=> response.json())
-    .then((data) => {
-        setTweet([...tweets, data.value])
-    })
+      
+  fetch("https://api.chucknorris.io/jokes/random")
+  .then((response)=> response.json())
+  .then((data) => {
+    setTweet([...tweets, data.value])
+  })
   }
   useEffect(()=>{
     setTimeout(() =>{getChuckNorris()}, 5000)

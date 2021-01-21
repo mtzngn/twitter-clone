@@ -13,7 +13,6 @@ const UserInput = ({getTweets}) => {
 
         setTweet([...tweet, `${inputText}`]);
         setinputText("");
-        console.log(tweet)
     }
 
     useEffect(()=>{

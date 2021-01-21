@@ -1,5 +1,5 @@
 import './MainFeed.css';
-import {React, useState} from "react"
+import {React, useState, useEffect} from "react"
 import UserInput from "../UserInput/UserInput.js"
 
 
@@ -8,11 +8,26 @@ const MainFeed = () =>{
   const getTweets = (data) => {
     setTweet([...tweets, `${data}`])
   }
+
+  const getChuckNorris = () =>{
+    console.log(tweets)
+
+    fetch("https://api.chucknorris.io/jokes/random")
+    .then((response)=> response.json())
+    .then((data) => {
+        setTweet([...tweets, data.value])
+    })
+  }
+  useEffect(()=>{
+    setTimeout(() =>{getChuckNorris()}, 5000)
+    
+  }, [tweets])
+
     return (
     <div class="main-feed">
       <UserInput getTweets={getTweets}/>
 
-      {tweets.map((tweet)=>{
+      {tweets.slice(0).reverse().map((tweet)=>{
         return (
           <div className="feed-wrapper">
           <div className="feed-logo">
@@ -52,5 +67,8 @@ const MainFeed = () =>{
     </div>
     )
   }
+
+
+
 
   export default MainFeed;

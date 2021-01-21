@@ -5,7 +5,7 @@
 .feed-wrapper {
     width: 100%;
     height:fit-content;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     display:flex;
     border: 1px solid rgb(235,238,240);
 }
@@ -55,10 +55,10 @@ align-items: center;
 .tweet-feed {
     height: fit-content;
     width:100%;
-    background-color: #fff;
     display:flex;
 }
-.tweet-btns {
+
+.tweet-btns {    
     height: 25%;
     width: 100%;
     display:flex;
@@ -68,5 +68,24 @@ align-items: center;
 .tweet-btns a i {
     color: #65788A;
 }
+.tweet-btns a {
+    margin: 5px 5px 0 5px;
+    width:35px;
+    height:35px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tweet-btns a:hover {
+    background-color: rgb(225,238,247);
+    border-radius: 50%;
+}
+
+.tweet-btns a i:hover {
+    color:rgb(29,161,242);
+}
+
 
 

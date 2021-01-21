@@ -25,7 +25,7 @@ const MainFeed = () =>{
     <div class="main-feed">
       <UserInput getTweets={getTweets}/>
 
-      {tweets.slice(0).reverse().map((tweet)=>{
+      {tweets.map((tweet)=>{
         return (
           <div className="feed-wrapper">
           <div className="feed-logo">

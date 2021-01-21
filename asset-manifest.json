@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mtzngn/twitter-clone.git/static/css/main.17190e10.chunk.css",
+    "main.js": "/mtzngn/twitter-clone.git/static/js/main.158d89fe.chunk.js",
+    "main.js.map": "/mtzngn/twitter-clone.git/static/js/main.158d89fe.chunk.js.map",
+    "runtime-main.js": "/mtzngn/twitter-clone.git/static/js/runtime-main.376ebc59.js",
+    "runtime-main.js.map": "/mtzngn/twitter-clone.git/static/js/runtime-main.376ebc59.js.map",
+    "static/js/2.ff05dcdf.chunk.js": "/mtzngn/twitter-clone.git/static/js/2.ff05dcdf.chunk.js",
+    "static/js/2.ff05dcdf.chunk.js.map": "/mtzngn/twitter-clone.git/static/js/2.ff05dcdf.chunk.js.map",
+    "static/js/3.6c2c5dee.chunk.js": "/mtzngn/twitter-clone.git/static/js/3.6c2c5dee.chunk.js",
+    "static/js/3.6c2c5dee.chunk.js.map": "/mtzngn/twitter-clone.git/static/js/3.6c2c5dee.chunk.js.map",
+    "index.html": "/mtzngn/twitter-clone.git/index.html",
+    "static/css/main.17190e10.chunk.css.map": "/mtzngn/twitter-clone.git/static/css/main.17190e10.chunk.css.map",
+    "static/js/2.ff05dcdf.chunk.js.LICENSE.txt": "/mtzngn/twitter-clone.git/static/js/2.ff05dcdf.chunk.js.LICENSE.txt",
+    "static/media/MainFeed.css": "/mtzngn/twitter-clone.git/static/media/chucknorrisLogo.cabd9b85.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.376ebc59.js",
+    "static/js/2.ff05dcdf.chunk.js",
+    "static/css/main.17190e10.chunk.css",
+    "static/js/main.158d89fe.chunk.js"
+  ]
+}

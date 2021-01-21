@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/mtzngn/twitter-clone/static/css/main.e348ae9e.chunk.css",
-    "main.js": "/mtzngn/twitter-clone/static/js/main.8cf1b2ba.chunk.js",
-    "main.js.map": "/mtzngn/twitter-clone/static/js/main.8cf1b2ba.chunk.js.map",
-    "runtime-main.js": "/mtzngn/twitter-clone/static/js/runtime-main.6f927161.js",
-    "runtime-main.js.map": "/mtzngn/twitter-clone/static/js/runtime-main.6f927161.js.map",
-    "static/js/2.12d120b8.chunk.js": "/mtzngn/twitter-clone/static/js/2.12d120b8.chunk.js",
-    "static/js/2.12d120b8.chunk.js.map": "/mtzngn/twitter-clone/static/js/2.12d120b8.chunk.js.map",
-    "static/js/3.6c2c5dee.chunk.js": "/mtzngn/twitter-clone/static/js/3.6c2c5dee.chunk.js",
-    "static/js/3.6c2c5dee.chunk.js.map": "/mtzngn/twitter-clone/static/js/3.6c2c5dee.chunk.js.map",
-    "index.html": "/mtzngn/twitter-clone/index.html",
-    "static/css/main.e348ae9e.chunk.css.map": "/mtzngn/twitter-clone/static/css/main.e348ae9e.chunk.css.map",
-    "static/js/2.12d120b8.chunk.js.LICENSE.txt": "/mtzngn/twitter-clone/static/js/2.12d120b8.chunk.js.LICENSE.txt",
-    "static/media/MainFeed.css": "/mtzngn/twitter-clone/static/media/chucknorrisLogo.cabd9b85.png"
+    "main.css": "/twitter-clone/static/css/main.212a4a51.chunk.css",
+    "main.js": "/twitter-clone/static/js/main.8939ceb9.chunk.js",
+    "main.js.map": "/twitter-clone/static/js/main.8939ceb9.chunk.js.map",
+    "runtime-main.js": "/twitter-clone/static/js/runtime-main.531a4c78.js",
+    "runtime-main.js.map": "/twitter-clone/static/js/runtime-main.531a4c78.js.map",
+    "static/js/2.12d120b8.chunk.js": "/twitter-clone/static/js/2.12d120b8.chunk.js",
+    "static/js/2.12d120b8.chunk.js.map": "/twitter-clone/static/js/2.12d120b8.chunk.js.map",
+    "static/js/3.6c2c5dee.chunk.js": "/twitter-clone/static/js/3.6c2c5dee.chunk.js",
+    "static/js/3.6c2c5dee.chunk.js.map": "/twitter-clone/static/js/3.6c2c5dee.chunk.js.map",
+    "index.html": "/twitter-clone/index.html",
+    "static/css/main.212a4a51.chunk.css.map": "/twitter-clone/static/css/main.212a4a51.chunk.css.map",
+    "static/js/2.12d120b8.chunk.js.LICENSE.txt": "/twitter-clone/static/js/2.12d120b8.chunk.js.LICENSE.txt",
+    "static/media/MainFeed.css": "/twitter-clone/static/media/chucknorrisLogo.cabd9b85.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6f927161.js",
+    "static/js/runtime-main.531a4c78.js",
     "static/js/2.12d120b8.chunk.js",
-    "static/css/main.e348ae9e.chunk.css",
-    "static/js/main.8cf1b2ba.chunk.js"
+    "static/css/main.212a4a51.chunk.css",
+    "static/js/main.8939ceb9.chunk.js"
   ]
 }

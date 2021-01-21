@@ -1,6 +1,7 @@
 {
   "name": "twitter-clone",
   "version": "0.1.0",
+  "homepage": "https://mtzngn.github.io/twitter-clone/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
@@ -12,7 +13,6 @@
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
-  "homepage": "https://mtzngn.github.io/twitter-clone/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
